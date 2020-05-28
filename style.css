@@ -1,0 +1,16 @@
+.grid {
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indianred;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.shapes {
+    background-color: cadetblue;
+}
