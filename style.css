@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+}
+
 .grid {
     height: 400px;
     width: 200px;
@@ -13,4 +17,18 @@
 
 .shapes {
     background-color: cadetblue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indianred;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
 }
